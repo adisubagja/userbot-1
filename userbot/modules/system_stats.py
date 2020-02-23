@@ -120,17 +120,17 @@ async def pipcheck(pip):
 
 
 
-@register(outgoing=True, pattern="^.live$")
+@register(outgoing=True, pattern="^.idup$")
 async def amireallyalive(on):
     """ For .on command, check if the bot is running.  """
     await on.edit("`"
-                     f"My but is run \n\n"
+                     f"My but is run, still fast fakboi \n\n"
                      f"User: {DEFAULTUSER} \n"
                      f"Telethon ={version.__version__} \n"
                      f"Python   ={python_version()} \n\n`"
                      "============= \n"
-                     "Hello everyone its [ME](https://t.me/pelerrx) \n"
-                     "Powered by [Heroku](https://www.heroku.com) \n"
+                     "Hello everyone its [@pellerx](https://t.me/pelerrx) \n"
+                     "Powered by [CAP KAKI 3](https://www.heroku.com) \n"
                      "============="
 
                                          "")
