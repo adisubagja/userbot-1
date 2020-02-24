@@ -53,6 +53,8 @@ if CONFIG_CHECK:
 API_KEY = os.environ.get("API_KEY", None)
 API_HASH = os.environ.get("API_HASH", None)
 
+os.environ.get("TELEGRAPH_SHORT_NAME", None)
+
 # Userbot Session String
 STRING_SESSION = os.environ.get("STRING_SESSION", None)
 
@@ -206,7 +208,6 @@ with bot:
             "valid entity. Check your environment variables/config.env file.")
         quit(1)
 
-TELEGRAPH_SHORT_NAME
 
 # Global Variables
 COUNT_MSG = 0
