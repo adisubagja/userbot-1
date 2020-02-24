@@ -206,6 +206,8 @@ with bot:
             "valid entity. Check your environment variables/config.env file.")
         quit(1)
 
+TELEGRAPH_SHORT_NAME
+
 # Global Variables
 COUNT_MSG = 0
 USERS = {}
